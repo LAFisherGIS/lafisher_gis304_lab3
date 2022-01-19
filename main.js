@@ -11,6 +11,7 @@ import {transformExtent} from 'ol/proj';
 import {fromLonLat} from 'ol/proj';
 import {register} from 'ol/proj/proj4';
 import {Style, Fill, Stroke} from 'ol/style';
+import Overlay from 'ol/Overlay';
 
 proj4.defs("EPSG:2163","+proj=laea +lat_0=45 +lon_0=-100 +x_0=0 +y_0=0 +a=6370997 +b=6370997 +units=m +no_defs");
 register(proj4);
