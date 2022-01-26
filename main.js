@@ -55,6 +55,6 @@ const map = new Map({
       projection: 'EPSG:2163',
       center: fromLonLat([37,-95], 'EPSG:2163'),
       zoom: 3,
-      extent: transformExtent([167.65, 15.56, -65.69, 74.71], 'EPSG:4326', 'EPSG:2163'),
+      extent: transformExtent([167.65, 15.56, -64.69, 74.71], 'EPSG:4326', 'EPSG:2163'),
     })
 });
